@@ -131,6 +131,7 @@ global.ultahowner = 'Mei 5 2024'
 global.nomorown = '6283861639366'
 global.nameown = 'ipannLonely'
 global.wait = 'Tunggu Sebentar...'
+// fake owner di creator.js
 
 // Tampilan
 global.htki =  '⃝▣──「' // Hiasan kiri
