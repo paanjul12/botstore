@@ -16,7 +16,7 @@ handler.before = function (m, { match, usedPrefix, text, args }) {
 		let tag = `*@${who.split("@")[0]}*`
 		let sim = similarity(noPrefix, mean)
 		let som = sim * 100
-	 if (mean) this.sendFile(m.chat, 'https://telegra.ph/file/3691705d4b418481c7e48.jpg', 'didyougay.jpg', `Apakah kamu mencari *${usedPrefix + mean}*?\n\n➲ Hasil Kemiripan *${parseInt(som)}%*`, m)
+	 if (mean) this.sendFile(m.chat, 'https://telegra.ph/file/a65349052f454ada5d93e.jpg', 'didyougay.jpg', `Apakah kamu mencari *${usedPrefix + mean}*?\n\n➲ Hasil Kemiripan *${parseInt(som)}%*`, m)
 	}
   }
 

@@ -25,8 +25,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ["xnxxdl", "dlxnxx"].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(xnxxdl|dlxnxx)$/i
-handler.register = true
-handler.premium = false
+handler.register = false
+handler.premium = true
 handler.private = false
 
 module.exports = handler

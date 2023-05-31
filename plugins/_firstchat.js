@@ -13,7 +13,7 @@ handler.before = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
  //   await conn.modifyChat(m.chat, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
     
-    let thumb = 'https://telegra.ph/file/d59776ea4b0efb0879167.jpg'
+    let thumb = 'https://telegra.ph/file/a65349052f454ada5d93e.jpg'
     let dann = `Hai ${ucapan()} *${username.replace(/@.+/, '')}* 👋
 ${banned ? `Kamu telah terbanned!\nHubungi: https://wa.me/+${owner[0]}` : 'Ada yang bisa saya bantu?'}`
    
