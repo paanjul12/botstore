@@ -1,0 +1,5 @@
+{
+    "status": 404,
+    "message": "apikey undefined not found.",
+    "result": "error"
+}
